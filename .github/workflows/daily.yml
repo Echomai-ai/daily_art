@@ -7,6 +7,10 @@ on:
   # 允许手动触发
   workflow_dispatch:
 
+# 授予 Actions 写入仓库的权限
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -28,7 +32,7 @@ jobs:
         run: python generate_daily.py
 
       - name: Commit update
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: 'daily: update card'
           file_pattern: 'data.json'
