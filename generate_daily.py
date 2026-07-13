@@ -349,19 +349,22 @@ FALLBACK_IMAGES = [
 
 
 def f_get_image(v_season, v_weather_desc=""):
-    """Unsplash 优先 → 名画兜底 → HTML 渐变托底"""
+    """Unsplash 优先 → 名画兜底 → HTML 渐变托底
+    返回 (url, source) 元组，source 为 'unsplash' / 'wikimedia' / 'fallback'
+    """
     v_weather_key = f_get_weather_key(v_weather_desc)
 
     # 1. 优先 Unsplash
-    v_url = f_get_unsplash_image(v_season, v_weather_key)
-    if v_url:
-        return v_url
+    if UNSPLASH_ACCESS_KEY:
+        v_url = f_get_unsplash_image(v_season, v_weather_key)
+        if v_url:
+            return v_url, "unsplash"
 
     # 2. 名画兜底
     for v_key in [(v_season, v_weather_key), (v_season, "晴")]:
         if v_key in IMAGE_URLS and IMAGE_URLS[v_key]:
-            return random.choice(IMAGE_URLS[v_key])
-    return random.choice(FALLBACK_IMAGES)
+            return random.choice(IMAGE_URLS[v_key]), "wikimedia"
+    return random.choice(FALLBACK_IMAGES), "fallback"
 
 
 # ============================================================
@@ -389,7 +392,7 @@ def f_main():
         )
 
     # 5. 图片
-    v_image_url = f_get_image(v_season, v_weather_desc)
+    v_image_url, v_image_source = f_get_image(v_season, v_weather_desc)
 
     # 6. 组装输出
     v_result = {
@@ -402,6 +405,7 @@ def f_main():
         "poem": {"text": v_poem_text, "author": v_poem_author},
         "sentence": v_sentence,
         "image_url": v_image_url,
+        "image_source": v_image_source,
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
 
@@ -411,6 +415,7 @@ def f_main():
 
     print(f"[OK] {v_result['date']} {v_term} → data.json")
     print(f"  天气: {v_weather['desc'] if v_weather else '未获取'}")
+    print(f"  图片来源: {v_image_source}")
     print(f"  诗句: {v_poem_text}")
     print(f"  句子: {v_sentence}")
     return v_result
