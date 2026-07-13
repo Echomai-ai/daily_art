@@ -6,18 +6,18 @@
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "32°C",
+    "temp": "34°C",
     "desc": "Sunny",
-    "humidity": "62%",
+    "humidity": "71%",
     "wind": "15 km/h",
     "high": "37°C",
     "low": "27°C"
   },
   "poem": {
-    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
-    "author": "高骈《山亭夏日》"
+    "text": "接天莲叶无穷碧，映日荷花别样红。",
+    "author": "杨万里《晓出净慈寺送林子方》"
   },
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
-  "generated_at": "2026-07-13 10:21:31"
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
+  "generated_at": "2026-07-13 05:39:36"
 }
