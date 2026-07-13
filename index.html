@@ -56,16 +56,11 @@
     inset: 0;
     background: linear-gradient(to top, rgba(26,26,46,0.9) 0%, transparent 50%);
   }
-  /* 图片加载前占位 */
-  .image-placeholder {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-    color: #555;
-  }
+  /* 图片加载失败时的季节渐变色 */
+  .img-fallback-春 { background: linear-gradient(135deg, #2d5a27 0%, #5a8f3c 30%, #87c75c 60%, #f0d78c 100%) !important; }
+  .img-fallback-夏 { background: linear-gradient(135deg, #1a4a7a 0%, #2d8fc1 30%, #5cc0eb 60%, #f0f8a0 100%) !important; }
+  .img-fallback-秋 { background: linear-gradient(135deg, #5a2d0c 0%, #c15a1a 30%, #e8a040 60%, #f0d078 100%) !important; }
+  .img-fallback-冬 { background: linear-gradient(135deg, #1a2a4a 0%, #3a5a8c 30%, #8caacc 60%, #e0e8f0 100%) !important; }
 
   /* === 日期 & 天气 === */
   .info-bar {
@@ -184,9 +179,6 @@
     return;
   }
 
-  // 图片加载占位
-  const v_img_placeholder = `<div class="image-placeholder">&#x1f3a8;</div>`;
-
   // 天气 HTML
   let v_weather_html = '';
   if (v_data.weather) {
@@ -199,12 +191,11 @@
 
   // 渲染
   v_card.innerHTML = `
-    <div class="image-area">
-      <div class="image-placeholder" id="img-ph">&#x1f3a8;</div>
+    <div class="image-area" id="img-area">
       <img src="${v_data.image_url}" alt="" id="main-img"
            style="opacity:0;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
-           onload="this.style.opacity='1';document.getElementById('img-ph').style.display='none';"
-           onerror="this.style.display='none';">
+           onload="this.style.opacity='1';"
+           onerror="this.style.display='none';document.getElementById('img-area').classList.add('img-fallback-${v_data.season}');">
       <div class="image-overlay"></div>
     </div>
     <div class="info-bar">
