@@ -5,6 +5,7 @@ ponytail: 单文件零依赖，离线兜底覆盖所有场景。
 """
 
 import json
+import os
 import urllib.request
 import urllib.error
 import random
@@ -260,9 +261,53 @@ FALLBACK_SENTENCES = {
 
 
 # ============================================================
-# 图片URL - 按季节+天气匹配世界名画（公共领域/WikiArt）
-# ponytail: 离线兜底用名画URL，AI生成需要API Key
+# 图片获取 - Unsplash API 优先，Wikimedia 名画兜底
+# ponytail: 都不行时 HTML 端有 CSS 渐变兜底
+# 获取 Access Key: https://unsplash.com/developers
 # ============================================================
+UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+
+# 季节+天气 → Unsplash 搜索关键词
+SEASON_WEATHER_QUERIES = {
+    ("春", "晴"): "spring blossom nature sunny",
+    ("春", "雨"): "spring rain flower",
+    ("春", "风"): "spring wind cherry blossom",
+    ("夏", "晴"): "summer nature sunny lake",
+    ("夏", "雨"): "summer rain lotus",
+    ("夏", "风"): "summer breeze ocean",
+    ("秋", "晴"): "autumn forest golden sunlight",
+    ("秋", "雨"): "autumn rain mist",
+    ("秋", "风"): "autumn wind leaves",
+    ("冬", "晴"): "winter snow sunlight mountain",
+    ("冬", "雪"): "winter snow landscape",
+    ("冬", "风"): "winter wind snow",
+    ("冬", "雨"): "winter rain mist",
+}
+
+
+def f_get_unsplash_image(v_season, v_weather_key):
+    """从 Unsplash 获取图片，失败返回 None"""
+    if not UNSPLASH_ACCESS_KEY:
+        return None
+    v_query = SEASON_WEATHER_QUERIES.get(
+        (v_season, v_weather_key),
+        SEASON_WEATHER_QUERIES.get((v_season, "晴"), "nature landscape"),
+    )
+    try:
+        v_url = (
+            f"https://api.unsplash.com/photos/random"
+            f"?query={v_query}&orientation=landscape&client_id={UNSPLASH_ACCESS_KEY}"
+        )
+        v_req = urllib.request.Request(v_url)
+        with urllib.request.urlopen(v_req, timeout=10) as v_resp:
+            v_data = json.loads(v_resp.read().decode("utf-8"))
+        # ponytail: 取 raw 尺寸，Unsplash 会自动缩放
+        return v_data["urls"]["raw"] + "&w=1200&h=800&fit=crop"
+    except Exception:
+        return None
+
+
+# 世界名画兜底（公共领域，Wikimedia Commons）
 IMAGE_URLS = {
     ("春", "晴"): [
         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
@@ -304,8 +349,15 @@ FALLBACK_IMAGES = [
 
 
 def f_get_image(v_season, v_weather_desc=""):
-    """根据季节+天气匹配名画URL"""
+    """Unsplash 优先 → 名画兜底 → HTML 渐变托底"""
     v_weather_key = f_get_weather_key(v_weather_desc)
+
+    # 1. 优先 Unsplash
+    v_url = f_get_unsplash_image(v_season, v_weather_key)
+    if v_url:
+        return v_url
+
+    # 2. 名画兜底
     for v_key in [(v_season, v_weather_key), (v_season, "晴")]:
         if v_key in IMAGE_URLS and IMAGE_URLS[v_key]:
             return random.choice(IMAGE_URLS[v_key])

@@ -23,6 +23,8 @@ jobs:
           python-version: '3.11'
 
       - name: Run generator
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: python generate_daily.py
 
       - name: Commit update
