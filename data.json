@@ -1,23 +1,24 @@
 {
-  "date": "2026-07-13",
-  "date_cn": "2026年7月13日",
-  "weekday": "星期一",
+  "date": "2026-07-14",
+  "date_cn": "2026年7月14日",
+  "weekday": "星期二",
   "solar_term": "小暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "35°C",
+    "temp": "37°C",
     "desc": "Sunny",
-    "humidity": "67%",
-    "wind": "13 km/h",
+    "humidity": "64%",
+    "wind": "14 km/h",
     "high": "37°C",
-    "low": "27°C"
+    "low": "28°C"
   },
   "poem": {
-    "text": "纷纷红紫已成尘，布谷声中夏令新。",
-    "author": "陆游《初夏绝句》"
+    "text": "接天莲叶无穷碧，映日荷花别样红。",
+    "author": "杨万里《晓出净慈寺送林子方》"
   },
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
-  "generated_at": "2026-07-13 05:57:00"
+  "image_source": "wikimedia",
+  "generated_at": "2026-07-14 06:38:09"
 }
