@@ -288,6 +288,7 @@ SEASON_WEATHER_QUERIES = {
 def f_get_pexels_image(v_season, v_weather_key):
     """从 Pexels 获取图片，失败返回 None"""
     if not PEXELS_API_KEY:
+        print("  [Pexels] 未配置 API Key")
         return None
     v_query = SEASON_WEATHER_QUERIES.get(
         (v_season, v_weather_key),
@@ -305,10 +306,12 @@ def f_get_pexels_image(v_season, v_weather_key):
             v_data = json.loads(v_resp.read().decode("utf-8"))
         v_photos = v_data.get("photos", [])
         if v_photos:
-            # ponytail: 取 large 尺寸，适配手机屏幕
+            print(f"  [Pexels] 获取成功: {v_query}")
             return v_photos[0]["src"]["large"]
+        print(f"  [Pexels] 无结果: {v_query}")
         return None
-    except Exception:
+    except Exception as v_e:
+        print(f"  [Pexels] 失败: {v_e}")
         return None
 
 
