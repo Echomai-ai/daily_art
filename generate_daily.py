@@ -261,13 +261,13 @@ FALLBACK_SENTENCES = {
 
 
 # ============================================================
-# 图片获取 - Unsplash API 优先，Wikimedia 名画兜底
+# 图片获取 - Pexels API 优先，Wikimedia 名画兜底
 # ponytail: 都不行时 HTML 端有 CSS 渐变兜底
-# 获取 Access Key: https://unsplash.com/developers
+# 获取 Key: https://www.pexels.com/api/  即时生效，无需审核
 # ============================================================
-UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+PEXELS_API_KEY = os.environ.get("PEXELS_API_KEY", "")
 
-# 季节+天气 → Unsplash 搜索关键词
+# 季节+天气 → Pexels 搜索关键词
 SEASON_WEATHER_QUERIES = {
     ("春", "晴"): "spring blossom nature sunny",
     ("春", "雨"): "spring rain flower",
@@ -285,9 +285,9 @@ SEASON_WEATHER_QUERIES = {
 }
 
 
-def f_get_unsplash_image(v_season, v_weather_key):
-    """从 Unsplash 获取图片，失败返回 None"""
-    if not UNSPLASH_ACCESS_KEY:
+def f_get_pexels_image(v_season, v_weather_key):
+    """从 Pexels 获取图片，失败返回 None"""
+    if not PEXELS_API_KEY:
         return None
     v_query = SEASON_WEATHER_QUERIES.get(
         (v_season, v_weather_key),
@@ -295,14 +295,19 @@ def f_get_unsplash_image(v_season, v_weather_key):
     )
     try:
         v_url = (
-            f"https://api.unsplash.com/photos/random"
-            f"?query={v_query}&orientation=landscape&client_id={UNSPLASH_ACCESS_KEY}"
+            f"https://api.pexels.com/v1/search"
+            f"?query={v_query}&orientation=landscape&per_page=1"
         )
-        v_req = urllib.request.Request(v_url)
+        v_req = urllib.request.Request(
+            v_url, headers={"Authorization": PEXELS_API_KEY}
+        )
         with urllib.request.urlopen(v_req, timeout=10) as v_resp:
             v_data = json.loads(v_resp.read().decode("utf-8"))
-        # ponytail: 取 raw 尺寸，Unsplash 会自动缩放
-        return v_data["urls"]["raw"] + "&w=1200&h=800&fit=crop"
+        v_photos = v_data.get("photos", [])
+        if v_photos:
+            # ponytail: 取 large 尺寸，适配手机屏幕
+            return v_photos[0]["src"]["large"]
+        return None
     except Exception:
         return None
 
@@ -349,16 +354,16 @@ FALLBACK_IMAGES = [
 
 
 def f_get_image(v_season, v_weather_desc=""):
-    """Unsplash 优先 → 名画兜底 → HTML 渐变托底
-    返回 (url, source) 元组，source 为 'unsplash' / 'wikimedia' / 'fallback'
+    """Pexels 优先 → 名画兜底 → HTML 渐变托底
+    返回 (url, source) 元组，source 为 'pexels' / 'wikimedia' / 'fallback'
     """
     v_weather_key = f_get_weather_key(v_weather_desc)
 
-    # 1. 优先 Unsplash
-    if UNSPLASH_ACCESS_KEY:
-        v_url = f_get_unsplash_image(v_season, v_weather_key)
+    # 1. 优先 Pexels
+    if PEXELS_API_KEY:
+        v_url = f_get_pexels_image(v_season, v_weather_key)
         if v_url:
-            return v_url, "unsplash"
+            return v_url, "pexels"
 
     # 2. 名画兜底
     for v_key in [(v_season, v_weather_key), (v_season, "晴")]:

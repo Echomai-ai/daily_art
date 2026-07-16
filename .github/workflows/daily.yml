@@ -28,7 +28,7 @@ jobs:
 
       - name: Run generator
         env:
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python generate_daily.py
 
       - name: Commit update
