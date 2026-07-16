@@ -291,6 +291,9 @@ def f_get_pexels_image(v_season, v_weather_key):
     if not PEXELS_API_KEY:
         print("  [Pexels] 未配置 API Key")
         return None
+    # ponytail: 调试用，打印 Key 前4位确认已传入
+    v_key_preview = PEXELS_API_KEY[:4] + "****" if len(PEXELS_API_KEY) > 4 else "****"
+    print(f"  [Pexels] Key: {v_key_preview} (长度 {len(PEXELS_API_KEY)})")
     v_query = SEASON_WEATHER_QUERIES.get(
         (v_season, v_weather_key),
         SEASON_WEATHER_QUERIES.get((v_season, "晴"), "nature landscape"),
