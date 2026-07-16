@@ -7,216 +7,442 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="每日诗意">
 <title>每日诗意 · 武汉</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 <style>
-  /* === reset === */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+
+  html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+
   body {
-    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Serif SC", serif;
-    background: #1a1a2e;
-    color: #eee;
+    font-family: "Noto Serif SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif;
+    background: #e8ddcc;
     min-height: 100vh;
     min-height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px;
+    padding: 16px;
   }
 
-  /* === card === */
+  /* ================================================================
+     卡片容器 — 宣纸感底色，max-width 480px，移动优先
+     ================================================================ */
   .card {
     width: 100%;
     max-width: 480px;
-    border-radius: 20px;
+    aspect-ratio: 3 / 4;
+    border-radius: 16px;
     overflow: hidden;
-    background: rgba(30, 30, 50, 0.85);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
     position: relative;
+    box-shadow:
+      0 4px 24px rgba(44, 36, 22, 0.12),
+      0 12px 48px rgba(44, 36, 22, 0.08);
+    background: #f5efe0;
+    animation: f_card_enter 1s ease-out both;
   }
 
-  /* === 图片区 === */
-  .image-area {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 3 / 2;
-    overflow: hidden;
-    background: #2a2a3e;
+  @keyframes f_card_enter {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
   }
-  .image-area img {
+
+  /* ================================================================
+     背景图片层 + 暗色渐变遮罩，确保文字可读
+     ================================================================ */
+  .card-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .card-bg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
-    transition: opacity 0.6s;
+    transition: opacity 1.2s ease;
   }
-  .image-area .image-overlay {
+
+  .card-bg::after {
+    content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(26,26,46,0.9) 0%, transparent 50%);
+    background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0.15) 28%,
+      rgba(0, 0, 0, 0.05) 45%,
+      rgba(0, 0, 0, 0.25) 65%,
+      rgba(0, 0, 0, 0.65) 85%,
+      rgba(0, 0, 0, 0.80) 100%
+    );
+    pointer-events: none;
   }
-  /* 图片加载失败时的季节渐变色 */
-  .img-fallback-春 { background: linear-gradient(135deg, #2d5a27 0%, #5a8f3c 30%, #87c75c 60%, #f0d78c 100%) !important; }
-  .img-fallback-夏 { background: linear-gradient(135deg, #1a4a7a 0%, #2d8fc1 30%, #5cc0eb 60%, #f0f8a0 100%) !important; }
-  .img-fallback-秋 { background: linear-gradient(135deg, #5a2d0c 0%, #c15a1a 30%, #e8a040 60%, #f0d078 100%) !important; }
-  .img-fallback-冬 { background: linear-gradient(135deg, #1a2a4a 0%, #3a5a8c 30%, #8caacc 60%, #e0e8f0 100%) !important; }
 
-  /* === 日期 & 天气 === */
-  .info-bar {
+  /* -------- 季节水墨渐变兜底 — 图片加载失败时展示 -------- */
+  .fallback-春 {
+    background: linear-gradient(170deg, #a8c8a0 0%, #6d9e6a 25%, #c5d8b0 50%, #4a7a4a 75%, #2d4a2d 100%) !important;
+  }
+  .fallback-夏 {
+    background: linear-gradient(170deg, #8ab8d8 0%, #5a9ec8 25%, #b0d0e8 50%, #3a6a90 75%, #1a3a58 100%) !important;
+  }
+  .fallback-秋 {
+    background: linear-gradient(170deg, #c8a060 0%, #a87830 25%, #d8c090 50%, #8a5820 75%, #4a3010 100%) !important;
+  }
+  .fallback-冬 {
+    background: linear-gradient(170deg, #a0b8c8 0%, #7898b0 25%, #c0d0d8 50%, #507080 75%, #283848 100%) !important;
+  }
+
+  /* ================================================================
+     顶部区域：日期 + 天气（小字，清雅）
+     ================================================================ */
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 16px 20px 0;
+    padding: 22px 24px 0;
+    z-index: 3;
+    animation: f_slide_up 0.9s 0.15s ease-out both;
   }
-  .date-block .date-cn {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #ccc;
-  }
-  .date-block .weekday {
-    font-size: 0.85rem;
-    color: #888;
-    margin-top: 2px;
-  }
-  .date-block .solar-term {
-    display: inline-block;
-    margin-top: 6px;
-    padding: 2px 10px;
-    border-radius: 10px;
-    font-size: 0.8rem;
-    background: rgba(255,255,255,0.1);
-    color: #f0c060;
-  }
-  .weather-block {
-    text-align: right;
-    font-size: 0.85rem;
-    color: #aaa;
+
+  .top-bar .date-area {
     line-height: 1.6;
   }
-  .weather-block .temp {
-    font-size: 1.5rem;
+
+  .top-bar .date-cn {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.92);
+    letter-spacing: 0.05em;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .top-bar .weekday {
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.08em;
+  }
+
+  /* -------- 节气印章（朱红色印章风） -------- */
+  .seal-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    padding: 3px 10px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #c9523c;
+    background: transparent;
+    border: 1.5px solid #c9523c;
+    border-radius: 3px;
+    letter-spacing: 0.15em;
+    text-shadow: none;
+    position: relative;
+  }
+
+  .seal-badge::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border: 0.5px solid rgba(201, 82, 60, 0.4);
+    border-radius: 1px;
+    pointer-events: none;
+  }
+
+  /* -------- 天气迷你信息 -------- */
+  .weather-mini {
+    text-align: right;
+    line-height: 1.5;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .weather-mini .v_temp {
+    font-size: 1.55rem;
     font-weight: 700;
     color: #fff;
+    letter-spacing: 0.02em;
   }
 
-  /* === 一句话 === */
-  .sentence-area {
-    padding: 16px 20px 0;
+  .weather-mini .v_desc {
+    font-size: 0.72rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.78);
   }
-  .sentence {
-    font-size: 1.0rem;
-    color: #ddd;
-    line-height: 1.7;
+
+  .weather-mini .v_extra {
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1px;
+  }
+
+  /* ================================================================
+     装饰性分隔线 — 铜金色，30% 透明度
+     ================================================================ */
+  .divider {
+    position: absolute;
+    top: 30%;
+    left: 24px;
+    right: 24px;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(184, 160, 110, 0.30) 15%,
+      rgba(184, 160, 110, 0.45) 50%,
+      rgba(184, 160, 110, 0.30) 85%,
+      transparent 100%
+    );
+    z-index: 3;
+    animation: f_slide_up 0.9s 0.25s ease-out both;
+  }
+
+  .divider::before {
+    content: '◆';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.4rem;
+    color: rgba(184, 160, 110, 0.5);
+    background: transparent;
+    padding: 0 6px;
+  }
+
+  /* ================================================================
+     中间区域：诗意一句话（斜体，居中）
+     ================================================================ */
+  .sentence-line {
+    position: absolute;
+    top: 34%;
+    left: 28px;
+    right: 28px;
+    text-align: center;
+    font-size: 1.05rem;
     font-style: italic;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.65);
+    z-index: 3;
+    animation: f_slide_up 0.9s 0.35s ease-out both;
   }
 
-  /* === 诗句 === */
-  .poem-area {
-    padding: 14px 20px 20px;
+  /* ================================================================
+     底部区域：诗句正文（大字，衬线，居中）+ 作者 + 生成时间
+     ================================================================ */
+  .card-content {
+    position: absolute;
+    inset: auto 0 0 0;
+    z-index: 3;
+    padding: 0 24px 26px;
+    animation: f_slide_up 0.9s 0.45s ease-out both;
   }
-  .poem-text {
-    font-size: 1.25rem;
-    font-weight: 600;
+
+  .poem-block {
+    text-align: center;
+  }
+
+  .poem-block .poem-text {
+    font-size: 1.55rem;
+    font-weight: 700;
     color: #fff;
-    line-height: 1.8;
-    letter-spacing: 0.05em;
-  }
-  .poem-author {
-    font-size: 0.85rem;
-    color: #888;
-    margin-top: 6px;
-    text-align: right;
+    line-height: 2.2;
+    letter-spacing: 0.08em;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.75);
   }
 
-  /* === 底部 === */
-  .footer {
-    padding: 0 20px 16px;
-    font-size: 0.7rem;
-    color: #555;
-    text-align: center;
+  .poem-block .poem-author {
+    font-size: 0.82rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 8px;
+    letter-spacing: 0.04em;
   }
 
-  /* === 加载/错误 === */
-  .loading, .error {
-    text-align: center;
-    padding: 40px 20px;
-    color: #888;
+  .poem-block .poem-footer {
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.28);
+    margin-top: 12px;
+    letter-spacing: 0.06em;
   }
-  .error { color: #c44; }
 
-  /* === 响应式 === */
+  /* ================================================================
+     加载 / 错误状态
+     ================================================================ */
+  .loading,
+  .error {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #8a8070;
+    letter-spacing: 0.08em;
+  }
+
+  /* ================================================================
+     @keyframes 动画
+     ================================================================ */
+  @keyframes f_slide_up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* ================================================================
+     响应式微调（小屏手机）
+     ================================================================ */
   @media (max-width: 400px) {
-    .card { border-radius: 16px; }
-    .poem-text { font-size: 1.15rem; }
-    .sentence { font-size: 0.95rem; }
-    .weather-block .temp { font-size: 1.3rem; }
+    .card {
+      border-radius: 12px;
+    }
+
+    .top-bar {
+      padding: 16px 18px 0;
+    }
+
+    .top-bar .date-cn {
+      font-size: 0.78rem;
+    }
+
+    .top-bar .weather-mini .v_temp {
+      font-size: 1.3rem;
+    }
+
+    .sentence-line {
+      font-size: 0.95rem;
+      left: 22px;
+      right: 22px;
+    }
+
+    .divider {
+      left: 18px;
+      right: 18px;
+    }
+
+    .poem-block .poem-text {
+      font-size: 1.35rem;
+    }
+
+    .card-content {
+      padding: 0 18px 20px;
+    }
+  }
+
+  @media (min-width: 401px) and (max-width: 480px) {
+    .top-bar {
+      padding: 20px 22px 0;
+    }
+
+    .sentence-line {
+      font-size: 1rem;
+      left: 24px;
+      right: 24px;
+    }
+
+    .poem-block .poem-text {
+      font-size: 1.45rem;
+    }
+
+    .card-content {
+      padding: 0 22px 24px;
+    }
   }
 </style>
 </head>
 <body>
 
 <div class="card" id="card">
-  <div class="loading" id="loading">加载中...</div>
+  <div class="loading">加载中…</div>
 </div>
 
 <script>
-(async function() {
+(async function () {
   const v_card = document.getElementById('card');
 
-  // 读取 data.json
+  /* ---------- 读取 data.json ---------- */
   let v_data;
   try {
     const v_resp = await fetch('data.json');
     if (!v_resp.ok) throw new Error('HTTP ' + v_resp.status);
     v_data = await v_resp.json();
   } catch (v_err) {
-    // ponytail: data.json 不存在时展示占位页面，不白屏
-    v_card.innerHTML = `<div class="error">
-      <p>暂无数日数据</p>
-      <p style="font-size:0.8rem;margin-top:8px;">请先运行 generate_daily.py 生成数据</p>
-    </div>`;
+    v_card.innerHTML = '<div class="error" style="color:#c9523c;">暂无数据</div>';
     return;
   }
 
-  // 天气 HTML
+  /* ---------- 天气预报 HTML ---------- */
   let v_weather_html = '';
   if (v_data.weather) {
     const v_w = v_data.weather;
+    const v_extra_parts = [];
+    if (v_w.humidity) v_extra_parts.push('湿度 ' + v_w.humidity);
+    if (v_w.wind) v_extra_parts.push(v_w.wind);
+    const v_extra_str = v_extra_parts.length ? v_extra_parts.join(' · ') : '';
+
     v_weather_html = `
-      <div class="temp">${v_w.temp}</div>
-      <div>${v_w.desc} · 湿度${v_w.humidity}</div>
-      <div>${v_w.high} / ${v_w.low} · ${v_w.wind}</div>`;
+      <div class="v_temp">${v_w.temp}</div>
+      <div class="v_desc">${v_w.desc}</div>` +
+      (v_extra_str ? `<div class="v_extra">${v_extra_str}</div>` : '');
   }
 
-  // 渲染
+  /* ---------- 节气印章 ---------- */
+  const v_seal_html = v_data.solar_term
+    ? `<div class="seal-badge">${v_data.solar_term}</div>`
+    : '';
+
+  /* ---------- 组装卡片 ---------- */
   v_card.innerHTML = `
-    <div class="image-area" id="img-area">
-      <img src="${v_data.image_url}" alt="" id="main-img"
-           style="opacity:0;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"
+    <div class="card-bg" id="card-bg">
+      <img src="${v_data.image_url}" alt=""
+           id="main-img"
+           style="opacity:0;"
            onload="this.style.opacity='1';"
-           onerror="this.style.display='none';document.getElementById('img-area').classList.add('img-fallback-${v_data.season}');">
-      <div class="image-overlay"></div>
+           onerror="this.style.display='none';document.getElementById('card-bg').classList.add('fallback-${v_data.season}');">
     </div>
-    <div class="info-bar">
-      <div class="date-block">
+
+    <div class="top-bar">
+      <div class="date-area">
         <div class="date-cn">${v_data.date_cn}</div>
         <div class="weekday">${v_data.weekday}</div>
-        <div class="solar-term">${v_data.solar_term}</div>
+        ${v_seal_html}
       </div>
-      <div class="weather-block">${v_weather_html}</div>
+      <div class="weather-mini">${v_weather_html}</div>
     </div>
-    <div class="sentence-area">
-      <div class="sentence">${v_data.sentence}</div>
-    </div>
-    <div class="poem-area">
-      <div class="poem-text">${v_data.poem.text}</div>
-      <div class="poem-author">—— ${v_data.poem.author}</div>
-    </div>
-    <div class="footer">
-      生成于 ${v_data.generated_at} · 武汉
+
+    <div class="divider"></div>
+
+    <div class="sentence-line">${v_data.sentence}</div>
+
+    <div class="card-content">
+      <div class="poem-block">
+        <div class="poem-text">${v_data.poem.text}</div>
+        <div class="poem-author">—— ${v_data.poem.author}</div>
+        <div class="poem-footer">${v_data.generated_at} · 武汉</div>
+      </div>
     </div>`;
 })();
 </script>
+
 </body>
 </html>
