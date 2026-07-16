@@ -8,6 +8,7 @@ import json
 import os
 import urllib.request
 import urllib.error
+import urllib.parse
 import random
 from datetime import date, datetime
 
@@ -297,7 +298,7 @@ def f_get_pexels_image(v_season, v_weather_key):
     try:
         v_url = (
             f"https://api.pexels.com/v1/search"
-            f"?query={v_query}&orientation=landscape&per_page=1"
+            f"?query={urllib.parse.quote(v_query)}&orientation=landscape&per_page=1"
         )
         v_req = urllib.request.Request(
             v_url, headers={"Authorization": PEXELS_API_KEY}
