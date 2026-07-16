@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-15",
-  "date_cn": "2026年7月15日",
-  "weekday": "星期三",
+  "date": "2026-07-16",
+  "date_cn": "2026年7月16日",
+  "weekday": "星期四",
   "solar_term": "小暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "35°C",
+    "temp": "36°C",
     "desc": "Partly cloudy",
-    "humidity": "63%",
-    "wind": "9 km/h",
+    "humidity": "57%",
+    "wind": "12 km/h",
     "high": "36°C",
     "low": "29°C"
   },
   "poem": {
-    "text": "接天莲叶无穷碧，映日荷花别样红。",
-    "author": "杨万里《晓出净慈寺送林子方》"
+    "text": "纷纷红紫已成尘，布谷声中夏令新。",
+    "author": "陆游《初夏绝句》"
   },
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-15 07:24:02"
+  "generated_at": "2026-07-16 07:33:06"
 }
