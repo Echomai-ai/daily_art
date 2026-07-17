@@ -7,18 +7,18 @@
   "weather": {
     "city": "武汉",
     "temp": "35°C",
-    "desc": "Cloudy ",
+    "desc": "Overcast ",
     "humidity": "63%",
-    "wind": "24 km/h",
+    "wind": "20 km/h",
     "high": "34°C",
     "low": "29°C"
   },
   "poem": {
-    "text": "纷纷红紫已成尘，布谷声中夏令新。",
-    "author": "陆游《初夏绝句》"
+    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
+    "author": "高骈《山亭夏日》"
   },
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-17 05:47:48"
+  "generated_at": "2026-07-17 07:29:45"
 }
