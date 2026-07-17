@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-16",
-  "date_cn": "2026年7月16日",
-  "weekday": "星期四",
+  "date": "2026-07-17",
+  "date_cn": "2026年7月17日",
+  "weekday": "星期五",
   "solar_term": "小暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "36°C",
-    "desc": "Thundery outbreaks in nearby",
-    "humidity": "64%",
-    "wind": "14 km/h",
-    "high": "36°C",
+    "temp": "35°C",
+    "desc": "Cloudy ",
+    "humidity": "63%",
+    "wind": "24 km/h",
+    "high": "34°C",
     "low": "29°C"
   },
   "poem": {
-    "text": "黄梅时节家家雨，青草池塘处处蛙。",
-    "author": "赵师秀《约客》"
+    "text": "纷纷红紫已成尘，布谷声中夏令新。",
+    "author": "陆游《初夏绝句》"
   },
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-16 09:52:05"
+  "generated_at": "2026-07-17 05:47:48"
 }
