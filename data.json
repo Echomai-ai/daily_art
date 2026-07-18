@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-17",
-  "date_cn": "2026年7月17日",
-  "weekday": "星期五",
+  "date": "2026-07-18",
+  "date_cn": "2026年7月18日",
+  "weekday": "星期六",
   "solar_term": "小暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "35°C",
-    "desc": "Overcast ",
-    "humidity": "63%",
-    "wind": "20 km/h",
-    "high": "34°C",
-    "low": "29°C"
+    "temp": "28°C",
+    "desc": "Partly cloudy",
+    "humidity": "94%",
+    "wind": "10 km/h",
+    "high": "31°C",
+    "low": "25°C"
   },
   "poem": {
-    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
-    "author": "高骈《山亭夏日》"
+    "text": "纷纷红紫已成尘，布谷声中夏令新。",
+    "author": "陆游《初夏绝句》"
   },
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-17 07:29:45"
+  "generated_at": "2026-07-18 06:30:28"
 }
