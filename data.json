@@ -7,18 +7,18 @@
   "weather": {
     "city": "武汉",
     "temp": "32°C",
-    "desc": "Partly cloudy",
-    "humidity": "71%",
-    "wind": "6 km/h",
-    "high": "29°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "67%",
+    "wind": "12 km/h",
+    "high": "31°C",
     "low": "25°C"
   },
   "poem": {
-    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
-    "author": "高骈《山亭夏日》"
+    "text": "黑云翻墨未遮山，白雨跳珠乱入船。",
+    "author": "苏轼《六月二十七日望湖楼醉书》"
   },
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-20 07:39:14"
+  "generated_at": "2026-07-20 10:25:16"
 }
