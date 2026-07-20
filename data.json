@@ -1,15 +1,15 @@
 {
-  "date": "2026-07-19",
-  "date_cn": "2026年7月19日",
-  "weekday": "星期日",
+  "date": "2026-07-20",
+  "date_cn": "2026年7月20日",
+  "weekday": "星期一",
   "solar_term": "小暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "31°C",
-    "desc": "Partly Cloudy ",
-    "humidity": "75%",
-    "wind": "5 km/h",
+    "temp": "32°C",
+    "desc": "Partly cloudy",
+    "humidity": "71%",
+    "wind": "6 km/h",
     "high": "29°C",
     "low": "25°C"
   },
@@ -20,5 +20,5 @@
   "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-19 07:38:59"
+  "generated_at": "2026-07-20 07:39:14"
 }
