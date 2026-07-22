@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-21",
-  "date_cn": "2026年7月21日",
-  "weekday": "星期二",
-  "solar_term": "小暑",
+  "date": "2026-07-22",
+  "date_cn": "2026年7月22日",
+  "weekday": "星期三",
+  "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "35°C",
-    "desc": "Patchy rain nearby",
-    "humidity": "60%",
-    "wind": "13 km/h",
-    "high": "34°C",
-    "low": "26°C"
+    "temp": "26°C",
+    "desc": "Heavy Rain With Thunderstorm, Rain With Thunderstorm",
+    "humidity": "100%",
+    "wind": "6 km/h",
+    "high": "27°C",
+    "low": "24°C"
   },
   "poem": {
     "text": "黄梅时节家家雨，青草池塘处处蛙。",
     "author": "赵师秀《约客》"
   },
-  "sentence": "温风至，蟋蟀居宇，武汉的热才刚刚开始。",
+  "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-21 07:56:57"
+  "generated_at": "2026-07-22 07:57:34"
 }
