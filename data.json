@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-22",
-  "date_cn": "2026年7月22日",
-  "weekday": "星期三",
+  "date": "2026-07-23",
+  "date_cn": "2026年7月23日",
+  "weekday": "星期四",
   "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "26°C",
-    "desc": "Heavy Rain With Thunderstorm, Rain With Thunderstorm",
-    "humidity": "100%",
-    "wind": "6 km/h",
-    "high": "27°C",
+    "temp": "33°C",
+    "desc": "Partly cloudy",
+    "humidity": "63%",
+    "wind": "16 km/h",
+    "high": "32°C",
     "low": "24°C"
   },
   "poem": {
-    "text": "黄梅时节家家雨，青草池塘处处蛙。",
-    "author": "赵师秀《约客》"
+    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
+    "author": "高骈《山亭夏日》"
   },
   "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-22 07:57:34"
+  "generated_at": "2026-07-23 08:00:09"
 }
