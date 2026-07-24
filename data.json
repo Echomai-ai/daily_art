@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-23",
-  "date_cn": "2026年7月23日",
-  "weekday": "星期四",
+  "date": "2026-07-24",
+  "date_cn": "2026年7月24日",
+  "weekday": "星期五",
   "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "33°C",
-    "desc": "Partly cloudy",
-    "humidity": "63%",
-    "wind": "16 km/h",
-    "high": "32°C",
-    "low": "24°C"
+    "temp": "35°C",
+    "desc": "Light rain shower",
+    "humidity": "60%",
+    "wind": "17 km/h",
+    "high": "34°C",
+    "low": "26°C"
   },
   "poem": {
-    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
-    "author": "高骈《山亭夏日》"
+    "text": "黑云翻墨未遮山，白雨跳珠乱入船。",
+    "author": "苏轼《六月二十七日望湖楼醉书》"
   },
   "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-23 08:00:09"
+  "generated_at": "2026-07-24 07:56:44"
 }
