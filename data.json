@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-24",
-  "date_cn": "2026年7月24日",
-  "weekday": "星期五",
+  "date": "2026-07-25",
+  "date_cn": "2026年7月25日",
+  "weekday": "星期六",
   "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "35°C",
-    "desc": "Light rain shower",
-    "humidity": "60%",
-    "wind": "17 km/h",
-    "high": "34°C",
-    "low": "26°C"
+    "temp": "36°C",
+    "desc": "Partly cloudy",
+    "humidity": "53%",
+    "wind": "12 km/h",
+    "high": "37°C",
+    "low": "27°C"
   },
   "poem": {
-    "text": "黑云翻墨未遮山，白雨跳珠乱入船。",
-    "author": "苏轼《六月二十七日望湖楼醉书》"
+    "text": "接天莲叶无穷碧，映日荷花别样红。",
+    "author": "杨万里《晓出净慈寺送林子方》"
   },
   "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-24 07:56:44"
+  "generated_at": "2026-07-25 07:29:13"
 }
