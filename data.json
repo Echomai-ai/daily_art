@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-27",
-  "date_cn": "2026年7月27日",
-  "weekday": "星期一",
+  "date": "2026-07-28",
+  "date_cn": "2026年7月28日",
+  "weekday": "星期二",
   "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "25°C",
-    "desc": "Patchy light drizzle",
-    "humidity": "89%",
-    "wind": "14 km/h",
-    "high": "27°C",
-    "low": "24°C"
+    "temp": "30°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "71%",
+    "wind": "19 km/h",
+    "high": "30°C",
+    "low": "25°C"
   },
   "poem": {
-    "text": "黄梅时节家家雨，青草池塘处处蛙。",
-    "author": "赵师秀《约客》"
+    "text": "七八个星天外，两三点雨山前。",
+    "author": "辛弃疾《西江月》"
   },
   "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-27 10:58:12"
+  "generated_at": "2026-07-28 08:05:41"
 }
