@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-28",
-  "date_cn": "2026年7月28日",
-  "weekday": "星期二",
+  "date": "2026-07-29",
+  "date_cn": "2026年7月29日",
+  "weekday": "星期三",
   "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
-    "temp": "30°C",
-    "desc": "Patchy rain nearby",
-    "humidity": "71%",
-    "wind": "19 km/h",
-    "high": "30°C",
+    "temp": "32°C",
+    "desc": "Cloudy",
+    "humidity": "67%",
+    "wind": "14 km/h",
+    "high": "33°C",
     "low": "25°C"
   },
   "poem": {
-    "text": "七八个星天外，两三点雨山前。",
-    "author": "辛弃疾《西江月》"
+    "text": "纷纷红紫已成尘，布谷声中夏令新。",
+    "author": "陆游《初夏绝句》"
   },
   "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-28 08:05:41"
+  "generated_at": "2026-07-29 08:11:28"
 }
