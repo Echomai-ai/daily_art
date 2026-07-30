@@ -1,24 +1,24 @@
 {
-  "date": "2026-07-29",
-  "date_cn": "2026年7月29日",
-  "weekday": "星期三",
+  "date": "2026-07-30",
+  "date_cn": "2026年7月30日",
+  "weekday": "星期四",
   "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
     "temp": "32°C",
-    "desc": "Cloudy",
-    "humidity": "67%",
-    "wind": "14 km/h",
+    "desc": "Partly Cloudy ",
+    "humidity": "60%",
+    "wind": "13 km/h",
     "high": "33°C",
-    "low": "25°C"
+    "low": "26°C"
   },
   "poem": {
     "text": "纷纷红紫已成尘，布谷声中夏令新。",
     "author": "陆游《初夏绝句》"
   },
   "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg/1280px-Claude_Monet_-_The_Water_Lily_Pond_%28Bridge_over_the_Water-Lily_Pond%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-07-29 08:11:28"
+  "generated_at": "2026-07-30 07:56:07"
 }
