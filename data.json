@@ -1,24 +1,24 @@
 {
-  "date": "2026-08-04",
-  "date_cn": "2026年8月4日",
-  "weekday": "星期二",
+  "date": "2026-08-05",
+  "date_cn": "2026年8月5日",
+  "weekday": "星期三",
   "solar_term": "大暑",
   "season": "夏",
   "weather": {
     "city": "武汉",
     "temp": "36°C",
-    "desc": "Thundery outbreaks in nearby",
-    "humidity": "49%",
-    "wind": "11 km/h",
-    "high": "37°C",
+    "desc": "Smoky haze",
+    "humidity": "45%",
+    "wind": "6 km/h",
+    "high": "36°C",
     "low": "28°C"
   },
   "poem": {
-    "text": "黄梅时节家家雨，青草池塘处处蛙。",
-    "author": "赵师秀《约客》"
+    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
+    "author": "高骈《山亭夏日》"
   },
   "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg/800px-Hiroshige_II_-_Sudden_Shower_over_Shin-Ohashi_Bridge_and_Atake.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-04 08:09:52"
+  "generated_at": "2026-08-05 08:08:44"
 }
