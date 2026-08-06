@@ -1,24 +1,24 @@
 {
-  "date": "2026-08-05",
-  "date_cn": "2026年8月5日",
-  "weekday": "星期三",
-  "solar_term": "大暑",
-  "season": "夏",
+  "date": "2026-08-06",
+  "date_cn": "2026年8月6日",
+  "weekday": "星期四",
+  "solar_term": "立秋",
+  "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "36°C",
-    "desc": "Smoky haze",
-    "humidity": "45%",
-    "wind": "6 km/h",
-    "high": "36°C",
+    "temp": "37°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "43%",
+    "wind": "8 km/h",
+    "high": "37°C",
     "low": "28°C"
   },
   "poem": {
-    "text": "绿树阴浓夏日长，楼台倒影入池塘。",
-    "author": "高骈《山亭夏日》"
+    "text": "君问归期未有期，巴山夜雨涨秋池。",
+    "author": "李商隐《夜雨寄北》"
   },
-  "sentence": "三伏正中，江城的每一阵风都是热的，冰西瓜最甜。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Claude_Monet_-_Woman_in_the_Garden.jpg/800px-Claude_Monet_-_Woman_in_the_Garden.jpg",
+  "sentence": "梧桐一叶落，天下尽知秋，武汉的秋天从今天开始。",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-05 08:08:44"
+  "generated_at": "2026-08-06 08:06:35"
 }
