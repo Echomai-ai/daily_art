@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-09",
-  "date_cn": "2026年8月9日",
-  "weekday": "星期日",
+  "date": "2026-08-10",
+  "date_cn": "2026年8月10日",
+  "weekday": "星期一",
   "solar_term": "立秋",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "27°C",
+    "temp": "26°C",
     "desc": "Partly Cloudy ",
-    "humidity": "81%",
-    "wind": "26 km/h",
-    "high": "33°C",
-    "low": "27°C"
+    "humidity": "77%",
+    "wind": "31 km/h",
+    "high": "29°C",
+    "low": "24°C"
   },
   "poem": {
     "text": "晴空一鹤排云上，便引诗情到碧霄。",
@@ -20,5 +20,5 @@
   "sentence": "梧桐一叶落，天下尽知秋，武汉的秋天从今天开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-09 00:00:53"
+  "generated_at": "2026-08-10 00:04:54"
 }
