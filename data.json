@@ -1,24 +1,24 @@
 {
-  "date": "2026-08-10",
-  "date_cn": "2026年8月10日",
-  "weekday": "星期一",
+  "date": "2026-08-11",
+  "date_cn": "2026年8月11日",
+  "weekday": "星期二",
   "solar_term": "立秋",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "25°C",
-    "desc": "Patchy rain nearby",
-    "humidity": "93%",
-    "wind": "10 km/h",
-    "high": "26°C",
-    "low": "24°C"
+    "temp": "26°C",
+    "desc": "Overcast",
+    "humidity": "100%",
+    "wind": "5 km/h",
+    "high": "27°C",
+    "low": "25°C"
   },
   "poem": {
-    "text": "空山新雨后，天气晚来秋。",
-    "author": "王维《山居秋暝》"
+    "text": "停车坐爱枫林晚，霜叶红于二月花。",
+    "author": "杜牧《山行》"
   },
   "sentence": "梧桐一叶落，天下尽知秋，武汉的秋天从今天开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-10 23:40:13"
+  "generated_at": "2026-08-11 23:49:10"
 }
