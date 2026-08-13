@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-12",
-  "date_cn": "2026年8月12日",
-  "weekday": "星期三",
+  "date": "2026-08-13",
+  "date_cn": "2026年8月13日",
+  "weekday": "星期四",
   "solar_term": "立秋",
   "season": "秋",
   "weather": {
     "city": "武汉",
     "temp": "24°C",
     "desc": "Light rain shower",
-    "humidity": "95%",
-    "wind": "7 km/h",
-    "high": "28°C",
-    "low": "23°C"
+    "humidity": "91%",
+    "wind": "14 km/h",
+    "high": "27°C",
+    "low": "24°C"
   },
   "poem": {
     "text": "空山新雨后，天气晚来秋。",
@@ -20,5 +20,5 @@
   "sentence": "梧桐一叶落，天下尽知秋，武汉的秋天从今天开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-12 23:48:56"
+  "generated_at": "2026-08-13 23:48:51"
 }
