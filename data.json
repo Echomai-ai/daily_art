@@ -1,17 +1,17 @@
 {
-  "date": "2026-08-19",
-  "date_cn": "2026年8月19日",
-  "weekday": "星期三",
+  "date": "2026-08-20",
+  "date_cn": "2026年8月20日",
+  "weekday": "星期四",
   "solar_term": "立秋",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "27°C",
-    "desc": "Overcast ",
-    "humidity": "86%",
-    "wind": "8 km/h",
-    "high": "33°C",
-    "low": "27°C"
+    "temp": "28°C",
+    "desc": "Sunny",
+    "humidity": "82%",
+    "wind": "9 km/h",
+    "high": "36°C",
+    "low": "28°C"
   },
   "poem": {
     "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
@@ -20,5 +20,5 @@
   "sentence": "梧桐一叶落，天下尽知秋，武汉的秋天从今天开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-19 23:27:47"
+  "generated_at": "2026-08-20 23:30:58"
 }
