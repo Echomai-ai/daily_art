@@ -1,16 +1,16 @@
 {
-  "date": "2026-08-27",
-  "date_cn": "2026年8月27日",
-  "weekday": "星期四",
+  "date": "2026-08-28",
+  "date_cn": "2026年8月28日",
+  "weekday": "星期五",
   "solar_term": "处暑",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "34°C",
-    "desc": "Partly Cloudy ",
-    "humidity": "51%",
-    "wind": "8 km/h",
-    "high": "38°C",
+    "temp": "36°C",
+    "desc": "Sunny",
+    "humidity": "39%",
+    "wind": "23 km/h",
+    "high": "36°C",
     "low": "29°C"
   },
   "poem": {
@@ -20,5 +20,5 @@
   "sentence": "暑气渐消，江边的晚风终于有了丝丝凉意。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-27 04:26:45"
+  "generated_at": "2026-08-28 06:50:03"
 }
