@@ -1,24 +1,24 @@
 {
-  "date": "2026-08-28",
-  "date_cn": "2026年8月28日",
-  "weekday": "星期五",
+  "date": "2026-08-29",
+  "date_cn": "2026年8月29日",
+  "weekday": "星期六",
   "solar_term": "处暑",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "36°C",
-    "desc": "Sunny",
-    "humidity": "39%",
-    "wind": "23 km/h",
-    "high": "36°C",
-    "low": "29°C"
+    "temp": "28°C",
+    "desc": "Overcast ",
+    "humidity": "64%",
+    "wind": "31 km/h",
+    "high": "31°C",
+    "low": "24°C"
   },
   "poem": {
-    "text": "落霞与孤鹜齐飞，秋水共长天一色。",
-    "author": "王勃《滕王阁序》"
+    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "暑气渐消，江边的晚风终于有了丝丝凉意。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-28 06:50:03"
+  "generated_at": "2026-08-29 04:05:13"
 }
