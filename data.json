@@ -1,24 +1,24 @@
 {
-  "date": "2026-08-30",
-  "date_cn": "2026年8月30日",
-  "weekday": "星期日",
+  "date": "2026-08-31",
+  "date_cn": "2026年8月31日",
+  "weekday": "星期一",
   "solar_term": "处暑",
   "season": "秋",
   "weather": {
     "city": "武汉",
     "temp": "27°C",
-    "desc": "Cloudy ",
-    "humidity": "80%",
-    "wind": "21 km/h",
-    "high": "33°C",
-    "low": "25°C"
+    "desc": "Partly Cloudy ",
+    "humidity": "61%",
+    "wind": "28 km/h",
+    "high": "32°C",
+    "low": "26°C"
   },
   "poem": {
-    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
+    "text": "晴空一鹤排云上，便引诗情到碧霄。",
     "author": "刘禹锡《秋词》"
   },
   "sentence": "暑气渐消，江边的晚风终于有了丝丝凉意。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-08-30 01:10:34"
+  "generated_at": "2026-08-31 01:17:20"
 }
