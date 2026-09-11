@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-10",
-  "date_cn": "2026年9月10日",
-  "weekday": "星期四",
+  "date": "2026-09-11",
+  "date_cn": "2026年9月11日",
+  "weekday": "星期五",
   "solar_term": "白露",
   "season": "秋",
   "weather": {
     "city": "武汉",
     "temp": "19°C",
-    "desc": "Partly Cloudy ",
+    "desc": "Smoky haze",
     "humidity": "52%",
-    "wind": "23 km/h",
-    "high": "27°C",
+    "wind": "11 km/h",
+    "high": "29°C",
     "low": "19°C"
   },
   "poem": {
-    "text": "落霞与孤鹜齐飞，秋水共长天一色。",
-    "author": "王勃《滕王阁序》"
+    "text": "停车坐爱枫林晚，霜叶红于二月花。",
+    "author": "杜牧《山行》"
   },
   "sentence": "露从今夜白，黄鹤楼头的月色格外清亮。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-10 00:56:28"
+  "generated_at": "2026-09-11 00:53:21"
 }
