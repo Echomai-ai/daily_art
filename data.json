@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-11",
-  "date_cn": "2026年9月11日",
-  "weekday": "星期五",
+  "date": "2026-09-12",
+  "date_cn": "2026年9月12日",
+  "weekday": "星期六",
   "solar_term": "白露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "19°C",
-    "desc": "Smoky haze",
-    "humidity": "52%",
-    "wind": "11 km/h",
-    "high": "29°C",
-    "low": "19°C"
+    "temp": "21°C",
+    "desc": "Partly Cloudy ",
+    "humidity": "60%",
+    "wind": "6 km/h",
+    "high": "31°C",
+    "low": "21°C"
   },
   "poem": {
-    "text": "停车坐爱枫林晚，霜叶红于二月花。",
-    "author": "杜牧《山行》"
+    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "露从今夜白，黄鹤楼头的月色格外清亮。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-11 00:53:21"
+  "generated_at": "2026-09-12 00:58:49"
 }
