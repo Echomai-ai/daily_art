@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-13",
-  "date_cn": "2026年9月13日",
-  "weekday": "星期日",
+  "date": "2026-09-14",
+  "date_cn": "2026年9月14日",
+  "weekday": "星期一",
   "solar_term": "白露",
   "season": "秋",
   "weather": {
     "city": "武汉",
     "temp": "24°C",
-    "desc": "Smoky haze",
-    "humidity": "54%",
-    "wind": "5 km/h",
+    "desc": "Partly Cloudy ",
+    "humidity": "51%",
+    "wind": "11 km/h",
     "high": "33°C",
     "low": "23°C"
   },
   "poem": {
-    "text": "停车坐爱枫林晚，霜叶红于二月花。",
-    "author": "杜牧《山行》"
+    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "露从今夜白，黄鹤楼头的月色格外清亮。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-13 00:44:39"
+  "generated_at": "2026-09-14 00:51:28"
 }
