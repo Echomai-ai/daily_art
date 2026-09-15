@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-14",
-  "date_cn": "2026年9月14日",
-  "weekday": "星期一",
+  "date": "2026-09-15",
+  "date_cn": "2026年9月15日",
+  "weekday": "星期二",
   "solar_term": "白露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "24°C",
-    "desc": "Partly Cloudy ",
-    "humidity": "51%",
-    "wind": "11 km/h",
-    "high": "33°C",
-    "low": "23°C"
+    "temp": "25°C",
+    "desc": "Smoky haze",
+    "humidity": "60%",
+    "wind": "6 km/h",
+    "high": "29°C",
+    "low": "25°C"
   },
   "poem": {
     "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
     "author": "刘禹锡《秋词》"
   },
   "sentence": "露从今夜白，黄鹤楼头的月色格外清亮。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-14 00:51:28"
+  "generated_at": "2026-09-15 01:18:05"
 }
