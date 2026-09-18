@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-17",
-  "date_cn": "2026年9月17日",
-  "weekday": "星期四",
+  "date": "2026-09-18",
+  "date_cn": "2026年9月18日",
+  "weekday": "星期五",
   "solar_term": "白露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "19°C",
-    "desc": "Light drizzle",
-    "humidity": "89%",
-    "wind": "12 km/h",
-    "high": "23°C",
-    "low": "18°C"
+    "temp": "21°C",
+    "desc": "Smoky haze",
+    "humidity": "83%",
+    "wind": "4 km/h",
+    "high": "27°C",
+    "low": "20°C"
   },
   "poem": {
-    "text": "空山新雨后，天气晚来秋。",
-    "author": "王维《山居秋暝》"
+    "text": "晴空一鹤排云上，便引诗情到碧霄。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "露从今夜白，黄鹤楼头的月色格外清亮。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-17 01:13:44"
+  "generated_at": "2026-09-18 01:09:27"
 }
