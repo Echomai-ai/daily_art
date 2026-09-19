@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-18",
-  "date_cn": "2026年9月18日",
-  "weekday": "星期五",
+  "date": "2026-09-19",
+  "date_cn": "2026年9月19日",
+  "weekday": "星期六",
   "solar_term": "白露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "21°C",
-    "desc": "Smoky haze",
-    "humidity": "83%",
-    "wind": "4 km/h",
+    "temp": "22°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "76%",
+    "wind": "7 km/h",
     "high": "27°C",
-    "low": "20°C"
+    "low": "22°C"
   },
   "poem": {
-    "text": "晴空一鹤排云上，便引诗情到碧霄。",
-    "author": "刘禹锡《秋词》"
+    "text": "君问归期未有期，巴山夜雨涨秋池。",
+    "author": "李商隐《夜雨寄北》"
   },
   "sentence": "露从今夜白，黄鹤楼头的月色格外清亮。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-18 01:09:27"
+  "generated_at": "2026-09-19 01:03:30"
 }
