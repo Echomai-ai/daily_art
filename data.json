@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-20",
-  "date_cn": "2026年9月20日",
-  "weekday": "星期日",
-  "solar_term": "白露",
+  "date": "2026-09-21",
+  "date_cn": "2026年9月21日",
+  "weekday": "星期一",
+  "solar_term": "秋分",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "23°C",
+    "temp": "24°C",
     "desc": "Smoky haze",
-    "humidity": "80%",
-    "wind": "4 km/h",
-    "high": "29°C",
-    "low": "23°C"
+    "humidity": "79%",
+    "wind": "8 km/h",
+    "high": "26°C",
+    "low": "22°C"
   },
   "poem": {
-    "text": "晴空一鹤排云上，便引诗情到碧霄。",
+    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
     "author": "刘禹锡《秋词》"
   },
-  "sentence": "露从今夜白，黄鹤楼头的月色格外清亮。",
+  "sentence": "昼夜均而寒暑平，桂花香满了整座江城。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-20 00:53:17"
+  "generated_at": "2026-09-21 00:57:10"
 }
