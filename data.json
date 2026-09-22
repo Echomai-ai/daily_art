@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-21",
-  "date_cn": "2026年9月21日",
-  "weekday": "星期一",
+  "date": "2026-09-22",
+  "date_cn": "2026年9月22日",
+  "weekday": "星期二",
   "solar_term": "秋分",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "24°C",
-    "desc": "Smoky haze",
-    "humidity": "79%",
-    "wind": "8 km/h",
-    "high": "26°C",
-    "low": "22°C"
+    "temp": "21°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "86%",
+    "wind": "13 km/h",
+    "high": "23°C",
+    "low": "20°C"
   },
   "poem": {
-    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
-    "author": "刘禹锡《秋词》"
+    "text": "秋风秋雨愁煞人。",
+    "author": "秋瑾（引清·陶澹人句）"
   },
   "sentence": "昼夜均而寒暑平，桂花香满了整座江城。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-21 00:57:10"
+  "generated_at": "2026-09-22 01:31:48"
 }
