@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-25",
-  "date_cn": "2026年9月25日",
-  "weekday": "星期五",
+  "date": "2026-09-26",
+  "date_cn": "2026年9月26日",
+  "weekday": "星期六",
   "solar_term": "秋分",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "26°C",
-    "desc": "Smoky haze",
-    "humidity": "80%",
-    "wind": "7 km/h",
-    "high": "33°C",
-    "low": "23°C"
+    "temp": "22°C",
+    "desc": "Partly Cloudy ",
+    "humidity": "90%",
+    "wind": "12 km/h",
+    "high": "29°C",
+    "low": "22°C"
   },
   "poem": {
-    "text": "落霞与孤鹜齐飞，秋水共长天一色。",
-    "author": "王勃《滕王阁序》"
+    "text": "晴空一鹤排云上，便引诗情到碧霄。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "昼夜均而寒暑平，桂花香满了整座江城。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-25 01:19:09"
+  "generated_at": "2026-09-26 01:21:35"
 }
