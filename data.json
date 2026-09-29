@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-28",
-  "date_cn": "2026年9月28日",
-  "weekday": "星期一",
+  "date": "2026-09-29",
+  "date_cn": "2026年9月29日",
+  "weekday": "星期二",
   "solar_term": "秋分",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "24°C",
-    "desc": "Light rain shower",
-    "humidity": "84%",
+    "temp": "22°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "76%",
     "wind": "6 km/h",
-    "high": "28°C",
-    "low": "21°C"
+    "high": "27°C",
+    "low": "22°C"
   },
   "poem": {
-    "text": "秋风秋雨愁煞人。",
-    "author": "秋瑾（引清·陶澹人句）"
+    "text": "君问归期未有期，巴山夜雨涨秋池。",
+    "author": "李商隐《夜雨寄北》"
   },
   "sentence": "昼夜均而寒暑平，桂花香满了整座江城。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-28 01:29:09"
+  "generated_at": "2026-09-29 02:31:57"
 }
