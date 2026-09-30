@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-29",
-  "date_cn": "2026年9月29日",
-  "weekday": "星期二",
+  "date": "2026-09-30",
+  "date_cn": "2026年9月30日",
+  "weekday": "星期三",
   "solar_term": "秋分",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "22°C",
-    "desc": "Patchy rain nearby",
-    "humidity": "76%",
-    "wind": "6 km/h",
-    "high": "27°C",
+    "temp": "23°C",
+    "desc": "Smoky haze",
+    "humidity": "75%",
+    "wind": "4 km/h",
+    "high": "26°C",
     "low": "22°C"
   },
   "poem": {
-    "text": "君问归期未有期，巴山夜雨涨秋池。",
-    "author": "李商隐《夜雨寄北》"
+    "text": "停车坐爱枫林晚，霜叶红于二月花。",
+    "author": "杜牧《山行》"
   },
   "sentence": "昼夜均而寒暑平，桂花香满了整座江城。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-09-29 02:31:57"
+  "generated_at": "2026-09-30 01:55:13"
 }
