@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-03",
-  "date_cn": "2026年10月3日",
-  "weekday": "星期六",
+  "date": "2026-10-04",
+  "date_cn": "2026年10月4日",
+  "weekday": "星期日",
   "solar_term": "秋分",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "17°C",
-    "desc": "Light rain",
-    "humidity": "91%",
-    "wind": "8 km/h",
-    "high": "18°C",
-    "low": "17°C"
+    "temp": "19°C",
+    "desc": "Cloudy ",
+    "humidity": "78%",
+    "wind": "22 km/h",
+    "high": "24°C",
+    "low": "18°C"
   },
   "poem": {
-    "text": "秋风秋雨愁煞人。",
-    "author": "秋瑾（引清·陶澹人句）"
+    "text": "停车坐爱枫林晚，霜叶红于二月花。",
+    "author": "杜牧《山行》"
   },
   "sentence": "昼夜均而寒暑平，桂花香满了整座江城。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-03 01:49:48"
+  "generated_at": "2026-10-04 02:28:40"
 }
