@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-04",
-  "date_cn": "2026年10月4日",
-  "weekday": "星期日",
+  "date": "2026-10-05",
+  "date_cn": "2026年10月5日",
+  "weekday": "星期一",
   "solar_term": "秋分",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "19°C",
-    "desc": "Cloudy ",
-    "humidity": "78%",
-    "wind": "22 km/h",
-    "high": "24°C",
-    "low": "18°C"
+    "temp": "20°C",
+    "desc": "Partly Cloudy ",
+    "humidity": "34%",
+    "wind": "19 km/h",
+    "high": "25°C",
+    "low": "17°C"
   },
   "poem": {
-    "text": "停车坐爱枫林晚，霜叶红于二月花。",
-    "author": "杜牧《山行》"
+    "text": "晴空一鹤排云上，便引诗情到碧霄。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "昼夜均而寒暑平，桂花香满了整座江城。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-04 02:28:40"
+  "generated_at": "2026-10-05 01:46:09"
 }
