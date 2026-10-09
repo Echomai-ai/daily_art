@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-08",
-  "date_cn": "2026年10月8日",
-  "weekday": "星期四",
+  "date": "2026-10-09",
+  "date_cn": "2026年10月9日",
+  "weekday": "星期五",
   "solar_term": "寒露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "22°C",
+    "temp": "23°C",
     "desc": "Smoky haze",
-    "humidity": "44%",
-    "wind": "12 km/h",
-    "high": "27°C",
-    "low": "18°C"
+    "humidity": "49%",
+    "wind": "8 km/h",
+    "high": "29°C",
+    "low": "20°C"
   },
   "poem": {
-    "text": "落霞与孤鹜齐飞，秋水共长天一色。",
-    "author": "王勃《滕王阁序》"
+    "text": "晴空一鹤排云上，便引诗情到碧霄。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "露水渐寒，长江上的雾气开始浓重起来。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-08 02:37:04"
+  "generated_at": "2026-10-09 02:51:56"
 }
