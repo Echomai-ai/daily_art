@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-10",
-  "date_cn": "2026年10月10日",
-  "weekday": "星期六",
+  "date": "2026-10-11",
+  "date_cn": "2026年10月11日",
+  "weekday": "星期日",
   "solar_term": "寒露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "24°C",
-    "desc": "Smoky haze",
-    "humidity": "37%",
-    "wind": "7 km/h",
+    "temp": "25°C",
+    "desc": "Smog",
+    "humidity": "44%",
+    "wind": "8 km/h",
     "high": "31°C",
-    "low": "21°C"
+    "low": "22°C"
   },
   "poem": {
-    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
-    "author": "刘禹锡《秋词》"
+    "text": "停车坐爱枫林晚，霜叶红于二月花。",
+    "author": "杜牧《山行》"
   },
   "sentence": "露水渐寒，长江上的雾气开始浓重起来。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-10 02:12:29"
+  "generated_at": "2026-10-11 01:44:46"
 }
