@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-12",
-  "date_cn": "2026年10月12日",
-  "weekday": "星期一",
+  "date": "2026-10-13",
+  "date_cn": "2026年10月13日",
+  "weekday": "星期二",
   "solar_term": "寒露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "25°C",
+    "temp": "27°C",
     "desc": "Smoky haze",
-    "humidity": "46%",
-    "wind": "12 km/h",
-    "high": "31°C",
+    "humidity": "44%",
+    "wind": "17 km/h",
+    "high": "28°C",
     "low": "22°C"
   },
   "poem": {
@@ -20,5 +20,5 @@
   "sentence": "露水渐寒，长江上的雾气开始浓重起来。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-12 02:12:04"
+  "generated_at": "2026-10-13 03:26:07"
 }
