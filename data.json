@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-14",
-  "date_cn": "2026年10月14日",
-  "weekday": "星期三",
+  "date": "2026-10-15",
+  "date_cn": "2026年10月15日",
+  "weekday": "星期四",
   "solar_term": "寒露",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "23°C",
-    "desc": "Smoky haze",
-    "humidity": "51%",
-    "wind": "11 km/h",
-    "high": "27°C",
-    "low": "21°C"
+    "temp": "20°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "83%",
+    "wind": "15 km/h",
+    "high": "23°C",
+    "low": "20°C"
   },
   "poem": {
-    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
-    "author": "刘禹锡《秋词》"
+    "text": "秋风秋雨愁煞人。",
+    "author": "秋瑾（引清·陶澹人句）"
   },
   "sentence": "露水渐寒，长江上的雾气开始浓重起来。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-14 01:43:21"
+  "generated_at": "2026-10-15 01:19:44"
 }
