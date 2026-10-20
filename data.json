@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-19",
-  "date_cn": "2026年10月19日",
-  "weekday": "星期一",
+  "date": "2026-10-20",
+  "date_cn": "2026年10月20日",
+  "weekday": "星期二",
   "solar_term": "寒露",
   "season": "秋",
   "weather": {
     "city": "武汉",
     "temp": "18°C",
-    "desc": "Light rain",
-    "humidity": "90%",
-    "wind": "4 km/h",
-    "high": "19°C",
+    "desc": "Overcast ",
+    "humidity": "83%",
+    "wind": "12 km/h",
+    "high": "18°C",
     "low": "17°C"
   },
   "poem": {
-    "text": "空山新雨后，天气晚来秋。",
-    "author": "王维《山居秋暝》"
+    "text": "停车坐爱枫林晚，霜叶红于二月花。",
+    "author": "杜牧《山行》"
   },
   "sentence": "露水渐寒，长江上的雾气开始浓重起来。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-19 00:59:47"
+  "generated_at": "2026-10-20 01:39:29"
 }
