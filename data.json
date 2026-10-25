@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-24",
-  "date_cn": "2026年10月24日",
-  "weekday": "星期六",
+  "date": "2026-10-25",
+  "date_cn": "2026年10月25日",
+  "weekday": "星期日",
   "solar_term": "霜降",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "17°C",
-    "desc": "Smoky haze",
-    "humidity": "81%",
-    "wind": "4 km/h",
-    "high": "25°C",
-    "low": "15°C"
+    "temp": "18°C",
+    "desc": "Partly Cloudy ",
+    "humidity": "80%",
+    "wind": "7 km/h",
+    "high": "26°C",
+    "low": "17°C"
   },
   "poem": {
-    "text": "自古逢秋悲寂寥，我言秋日胜春朝。",
-    "author": "刘禹锡《秋词》"
+    "text": "落霞与孤鹜齐飞，秋水共长天一色。",
+    "author": "王勃《滕王阁序》"
   },
   "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-24 01:26:30"
+  "generated_at": "2026-10-25 00:56:46"
 }
