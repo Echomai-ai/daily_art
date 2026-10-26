@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-25",
-  "date_cn": "2026年10月25日",
-  "weekday": "星期日",
+  "date": "2026-10-26",
+  "date_cn": "2026年10月26日",
+  "weekday": "星期一",
   "solar_term": "霜降",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "18°C",
-    "desc": "Partly Cloudy ",
-    "humidity": "80%",
-    "wind": "7 km/h",
+    "temp": "20°C",
+    "desc": "Smoky haze",
+    "humidity": "84%",
+    "wind": "5 km/h",
     "high": "26°C",
-    "low": "17°C"
+    "low": "19°C"
   },
   "poem": {
     "text": "落霞与孤鹜齐飞，秋水共长天一色。",
@@ -20,5 +20,5 @@
   "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-25 00:56:46"
+  "generated_at": "2026-10-26 01:04:01"
 }
