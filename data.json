@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-26",
-  "date_cn": "2026年10月26日",
-  "weekday": "星期一",
+  "date": "2026-10-27",
+  "date_cn": "2026年10月27日",
+  "weekday": "星期二",
   "solar_term": "霜降",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "20°C",
-    "desc": "Smoky haze",
-    "humidity": "84%",
-    "wind": "5 km/h",
-    "high": "26°C",
-    "low": "19°C"
+    "temp": "17°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "70%",
+    "wind": "23 km/h",
+    "high": "20°C",
+    "low": "17°C"
   },
   "poem": {
-    "text": "落霞与孤鹜齐飞，秋水共长天一色。",
-    "author": "王勃《滕王阁序》"
+    "text": "秋风秋雨愁煞人。",
+    "author": "秋瑾（引清·陶澹人句）"
   },
   "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-26 01:04:01"
+  "generated_at": "2026-10-27 01:56:19"
 }
