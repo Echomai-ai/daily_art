@@ -1,24 +1,24 @@
 {
-  "date": "2026-10-28",
-  "date_cn": "2026年10月28日",
-  "weekday": "星期三",
+  "date": "2026-10-29",
+  "date_cn": "2026年10月29日",
+  "weekday": "星期四",
   "solar_term": "霜降",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "17°C",
-    "desc": "Patchy rain nearby",
+    "temp": "18°C",
+    "desc": "Mist",
     "humidity": "71%",
-    "wind": "8 km/h",
-    "high": "20°C",
-    "low": "16°C"
+    "wind": "14 km/h",
+    "high": "19°C",
+    "low": "17°C"
   },
   "poem": {
-    "text": "秋风秋雨愁煞人。",
-    "author": "秋瑾（引清·陶澹人句）"
+    "text": "停车坐爱枫林晚，霜叶红于二月花。",
+    "author": "杜牧《山行》"
   },
   "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-28 02:04:57"
+  "generated_at": "2026-10-29 02:15:06"
 }
