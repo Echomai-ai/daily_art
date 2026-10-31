@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-30",
-  "date_cn": "2026年10月30日",
-  "weekday": "星期五",
+  "date": "2026-10-31",
+  "date_cn": "2026年10月31日",
+  "weekday": "星期六",
   "solar_term": "霜降",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "19°C",
+    "temp": "21°C",
     "desc": "Smoky haze",
-    "humidity": "64%",
-    "wind": "4 km/h",
-    "high": "25°C",
-    "low": "15°C"
+    "humidity": "62%",
+    "wind": "13 km/h",
+    "high": "28°C",
+    "low": "18°C"
   },
   "poem": {
     "text": "落霞与孤鹜齐飞，秋水共长天一色。",
@@ -20,5 +20,5 @@
   "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-10-30 02:28:42"
+  "generated_at": "2026-10-31 02:11:33"
 }
