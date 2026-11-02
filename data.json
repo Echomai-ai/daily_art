@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-01",
-  "date_cn": "2026年11月1日",
-  "weekday": "星期日",
+  "date": "2026-11-02",
+  "date_cn": "2026年11月2日",
+  "weekday": "星期一",
   "solar_term": "霜降",
   "season": "秋",
   "weather": {
     "city": "武汉",
-    "temp": "16°C",
-    "desc": "Light drizzle",
-    "humidity": "76%",
-    "wind": "33 km/h",
-    "high": "23°C",
+    "temp": "17°C",
+    "desc": "Sunny",
+    "humidity": "43%",
+    "wind": "8 km/h",
+    "high": "22°C",
     "low": "13°C"
   },
   "poem": {
-    "text": "君问归期未有期，巴山夜雨涨秋池。",
-    "author": "李商隐《夜雨寄北》"
+    "text": "晴空一鹤排云上，便引诗情到碧霄。",
+    "author": "刘禹锡《秋词》"
   },
   "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg/800px-John_Everett_Millais_-_Autumn_Leaves_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-01 02:01:00"
+  "generated_at": "2026-11-02 02:15:50"
 }
