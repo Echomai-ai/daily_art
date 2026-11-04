@@ -1,10 +1,18 @@
 {
-  "date": "2026-11-03",
-  "date_cn": "2026年11月3日",
-  "weekday": "星期二",
+  "date": "2026-11-04",
+  "date_cn": "2026年11月4日",
+  "weekday": "星期三",
   "solar_term": "霜降",
   "season": "秋",
-  "weather": null,
+  "weather": {
+    "city": "武汉",
+    "temp": "15°C",
+    "desc": "Smoky haze",
+    "humidity": "85%",
+    "wind": "9 km/h",
+    "high": "18°C",
+    "low": "14°C"
+  },
   "poem": {
     "text": "落霞与孤鹜齐飞，秋水共长天一色。",
     "author": "王勃《滕王阁序》"
@@ -12,5 +20,5 @@
   "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-03 03:52:40"
+  "generated_at": "2026-11-04 02:57:26"
 }
