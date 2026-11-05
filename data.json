@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-04",
-  "date_cn": "2026年11月4日",
-  "weekday": "星期三",
-  "solar_term": "霜降",
-  "season": "秋",
+  "date": "2026-11-05",
+  "date_cn": "2026年11月5日",
+  "weekday": "星期四",
+  "solar_term": "立冬",
+  "season": "冬",
   "weather": {
     "city": "武汉",
-    "temp": "15°C",
+    "temp": "16°C",
     "desc": "Smoky haze",
-    "humidity": "85%",
-    "wind": "9 km/h",
-    "high": "18°C",
-    "low": "14°C"
+    "humidity": "71%",
+    "wind": "5 km/h",
+    "high": "21°C",
+    "low": "13°C"
   },
   "poem": {
-    "text": "落霞与孤鹜齐飞，秋水共长天一色。",
-    "author": "王勃《滕王阁序》"
+    "text": "忽如一夜春风来，千树万树梨花开。",
+    "author": "岑参《白雪歌送武判官归京》"
   },
-  "sentence": "草木黄落，武汉的深秋，天高云淡最宜登楼。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg/800px-Vincent_van_Gogh_-_Alley_in_Autumn_%28F1700%29.jpg",
+  "sentence": "水始冰，地始冻，武汉的冬天从一碗藕汤开始。",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-04 02:57:26"
+  "generated_at": "2026-11-05 03:20:30"
 }
