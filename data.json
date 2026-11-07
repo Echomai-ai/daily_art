@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-06",
-  "date_cn": "2026年11月6日",
-  "weekday": "星期五",
+  "date": "2026-11-07",
+  "date_cn": "2026年11月7日",
+  "weekday": "星期六",
   "solar_term": "立冬",
   "season": "冬",
   "weather": {
     "city": "武汉",
-    "temp": "19°C",
-    "desc": "Smog",
-    "humidity": "52%",
-    "wind": "8 km/h",
-    "high": "22°C",
-    "low": "16°C"
+    "temp": "18°C",
+    "desc": "Patchy rain nearby",
+    "humidity": "65%",
+    "wind": "15 km/h",
+    "high": "19°C",
+    "low": "15°C"
   },
   "poem": {
-    "text": "墙角数枝梅，凌寒独自开。",
-    "author": "王安石《梅花》"
+    "text": "寒雨连江夜入吴，平明送客楚山孤。",
+    "author": "王昌龄《芙蓉楼送辛渐》"
   },
   "sentence": "水始冰，地始冻，武汉的冬天从一碗藕汤开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-06 03:18:29"
+  "generated_at": "2026-11-07 02:38:17"
 }
