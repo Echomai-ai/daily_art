@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-07",
-  "date_cn": "2026年11月7日",
-  "weekday": "星期六",
+  "date": "2026-11-08",
+  "date_cn": "2026年11月8日",
+  "weekday": "星期日",
   "solar_term": "立冬",
   "season": "冬",
   "weather": {
     "city": "武汉",
-    "temp": "18°C",
-    "desc": "Patchy rain nearby",
-    "humidity": "65%",
-    "wind": "15 km/h",
-    "high": "19°C",
-    "low": "15°C"
+    "temp": "16°C",
+    "desc": "Overcast ",
+    "humidity": "74%",
+    "wind": "18 km/h",
+    "high": "17°C",
+    "low": "12°C"
   },
   "poem": {
-    "text": "寒雨连江夜入吴，平明送客楚山孤。",
-    "author": "王昌龄《芙蓉楼送辛渐》"
+    "text": "千山鸟飞绝，万径人踪灭。",
+    "author": "柳宗元《江雪》"
   },
   "sentence": "水始冰，地始冻，武汉的冬天从一碗藕汤开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-07 02:38:17"
+  "generated_at": "2026-11-08 02:13:41"
 }
