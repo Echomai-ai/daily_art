@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-08",
-  "date_cn": "2026年11月8日",
-  "weekday": "星期日",
+  "date": "2026-11-09",
+  "date_cn": "2026年11月9日",
+  "weekday": "星期一",
   "solar_term": "立冬",
   "season": "冬",
   "weather": {
     "city": "武汉",
-    "temp": "16°C",
+    "temp": "9°C",
     "desc": "Overcast ",
-    "humidity": "74%",
-    "wind": "18 km/h",
-    "high": "17°C",
-    "low": "12°C"
+    "humidity": "51%",
+    "wind": "24 km/h",
+    "high": "12°C",
+    "low": "8°C"
   },
   "poem": {
     "text": "千山鸟飞绝，万径人踪灭。",
     "author": "柳宗元《江雪》"
   },
   "sentence": "水始冰，地始冻，武汉的冬天从一碗藕汤开始。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-08 02:13:41"
+  "generated_at": "2026-11-09 02:30:26"
 }
