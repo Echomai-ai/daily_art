@@ -1,24 +1,24 @@
 {
-  "date": "2026-11-10",
-  "date_cn": "2026年11月10日",
-  "weekday": "星期二",
+  "date": "2026-11-11",
+  "date_cn": "2026年11月11日",
+  "weekday": "星期三",
   "solar_term": "立冬",
   "season": "冬",
   "weather": {
     "city": "武汉",
-    "temp": "12°C",
-    "desc": "Partly Cloudy ",
-    "humidity": "43%",
-    "wind": "4 km/h",
-    "high": "14°C",
-    "low": "7°C"
+    "temp": "13°C",
+    "desc": "Smoky haze",
+    "humidity": "57%",
+    "wind": "7 km/h",
+    "high": "15°C",
+    "low": "10°C"
   },
   "poem": {
-    "text": "忽如一夜春风来，千树万树梨花开。",
-    "author": "岑参《白雪歌送武判官归京》"
+    "text": "墙角数枝梅，凌寒独自开。",
+    "author": "王安石《梅花》"
   },
   "sentence": "水始冰，地始冻，武汉的冬天从一碗藕汤开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-10 04:32:28"
+  "generated_at": "2026-11-11 02:38:21"
 }
