@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-19",
-  "date_cn": "2026年11月19日",
-  "weekday": "星期四",
+  "date": "2026-11-20",
+  "date_cn": "2026年11月20日",
+  "weekday": "星期五",
   "solar_term": "立冬",
   "season": "冬",
   "weather": {
     "city": "武汉",
     "temp": "11°C",
-    "desc": "Smoky haze",
-    "humidity": "45%",
+    "desc": "Sunny",
+    "humidity": "51%",
     "wind": "4 km/h",
-    "high": "14°C",
+    "high": "15°C",
     "low": "7°C"
   },
   "poem": {
@@ -20,5 +20,5 @@
   "sentence": "水始冰，地始冻，武汉的冬天从一碗藕汤开始。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-19 04:01:46"
+  "generated_at": "2026-11-20 03:55:01"
 }
