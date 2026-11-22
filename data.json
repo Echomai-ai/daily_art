@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-21",
-  "date_cn": "2026年11月21日",
-  "weekday": "星期六",
+  "date": "2026-11-22",
+  "date_cn": "2026年11月22日",
+  "weekday": "星期日",
   "solar_term": "小雪",
   "season": "冬",
   "weather": {
@@ -9,16 +9,16 @@
     "temp": "13°C",
     "desc": "Smoky haze",
     "humidity": "57%",
-    "wind": "6 km/h",
-    "high": "17°C",
-    "low": "9°C"
+    "wind": "13 km/h",
+    "high": "16°C",
+    "low": "10°C"
   },
   "poem": {
-    "text": "墙角数枝梅，凌寒独自开。",
-    "author": "王安石《梅花》"
+    "text": "千山鸟飞绝，万径人踪灭。",
+    "author": "柳宗元《江雪》"
   },
   "sentence": "虹藏不见，天气上升，江城的冬日阳光格外珍贵。",
-  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg/1280px-Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_%28Winter%29_-_Google_Art_Project.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-21 03:51:29"
+  "generated_at": "2026-11-22 02:55:40"
 }
