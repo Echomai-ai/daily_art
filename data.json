@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-26",
-  "date_cn": "2026年11月26日",
-  "weekday": "星期四",
+  "date": "2026-11-27",
+  "date_cn": "2026年11月27日",
+  "weekday": "星期五",
   "solar_term": "小雪",
   "season": "冬",
   "weather": {
     "city": "武汉",
     "temp": "17°C",
-    "desc": "Smoky haze",
-    "humidity": "48%",
-    "wind": "12 km/h",
+    "desc": "Smog",
+    "humidity": "57%",
+    "wind": "7 km/h",
     "high": "18°C",
     "low": "10°C"
   },
@@ -20,5 +20,5 @@
   "sentence": "虹藏不见，天气上升，江城的冬日阳光格外珍贵。",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg/1280px-Claude_Monet_-_The_Magpie_-_Google_Art_Project.jpg",
   "image_source": "wikimedia",
-  "generated_at": "2026-11-26 04:49:36"
+  "generated_at": "2026-11-27 04:53:13"
 }
